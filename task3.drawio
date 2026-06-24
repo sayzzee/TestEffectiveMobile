@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="PYK0e57l475NlwG7Uk40">
+    <mxGraphModel dx="691" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-35" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-36" connectable="0" parent="onmpzNaNbzfP-k2PGkgk-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Push Token" vertex="1">
+          <mxGeometry relative="1" x="-0.1143" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mobile App" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-46" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Gateway" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Notifications Service" vertex="1">
+          <mxGeometry height="120" width="140" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-41" parent="onmpzNaNbzfP-k2PGkgk-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Push Tokens" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-42" parent="onmpzNaNbzfP-k2PGkgk-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Templates DB" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-43" parent="onmpzNaNbzfP-k2PGkgk-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Hystory DB" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-51" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="500" />
+              <mxPoint x="310" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order Service" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-52" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cart Service" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-53" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="500" />
+              <mxPoint x="370" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Marketing Service" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kafka" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-54" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" target="onmpzNaNbzfP-k2PGkgk-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="369" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-62" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="280" />
+              <mxPoint x="690" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Firebase Cloud Messaging" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-63" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="350" />
+              <mxPoint x="690" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Apple Push Notification Service" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-59" edge="1" parent="1" source="onmpzNaNbzfP-k2PGkgk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="320" />
+              <mxPoint x="455" y="280" />
+            </Array>
+            <mxPoint x="460" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-61" connectable="0" parent="onmpzNaNbzfP-k2PGkgk-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="Отправка push через внешние источники" vertex="1">
+          <mxGeometry relative="1" x="-0.0359" y="-1" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onmpzNaNbzfP-k2PGkgk-60" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="onmpzNaNbzfP-k2PGkgk-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="350" />
+            </Array>
+            <mxPoint x="450" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+Ответ в файла task3.drawio и в виде картинки task3.drawio.png
